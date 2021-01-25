@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Instagram - Login</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body class="container">
+
+		<main class="container"><!-- Container agrupador -->
+			<section class="img"><!-- Seção de imagem do celuar -->
+				<img src="./assets/phone-instagram.png" alt="Imagem de celular com tela do Instagram">
+			</section>
+			<section class="content container"><!-- Conteudo Principal -->
+				<section class="login box container"><!-- Formulario de Login -->
+					<img src="./assets/instagram-logo.png" class="logo" alt="Logo Instagram">
+					<form action="#" method="POST" class="login-form container">
+
+						<!-- <label>Usuario</label> -->
+						<input type="text" name="login" id="" class="input" placeholder="Telefone, nome de usuario ou email">
+
+						<!-- <label>Senha</label> -->
+						<input type="password" name="senha" id="" class="input" placeholder="Senha">
+						<!-- <button>Mostrar/Esconder</button> -->
+
+						<input type="submit" class="input" value="Entrar">
+
+					</form>
+				</section><!-- Formulario de Login -->
+				<section class="cadastro box container"><!-- Seção referente a cadastro -->
+					<p>Não tem uma conta? <a href="#">Cadastre-se</a></p>
+				</section>
+				<section class="buttons container"><!-- Seção de links -->
+					<p>Adiquira o aplicativo.</p>
+					<div class="btn-container container">
+						<div class="btn container">
+							<a href="#">
+								<img src="./assets/apple-button.png" alt="Botão Apple Store">
+							</a>
+						</div>
+						<div class="btn container">
+							<a href="#">	
+								<img src="./assets/googleplay-button.png" alt="Botão Google Play">
+							</a>
+						</div>
+					</div>
+					<p>Desenvolvido por Arthur Abreu Vieira</p>
+					<div class="btn-container btn">
+						<div class="container github">
+							<a href="https://github.com/ArthurAbreuVieira" target="_blank">
+								<img src="./assets/github-button.png" alt="Link para GitHub de Arthur Abreu 	Vieira Mendes">
+							</a>
+						</div>
+					</div>
+				</section><!-- Conteudo Principal -->
+			</section><!-- Conteudo Principal -->
+		</main><!-- Container agrupador -->
+
+		<script>
+			const $btnEntrar = document.querySelector(".input:nth-child(3)");
+			$btnEntrar.addEventListener("click", ()=>{
+				const $valueConfirm = confirm("Gostou? Me siga no GitHub e veja meus outros projetos.");
+				if($valueConfirm){
+					const $linkGitHub = document.querySelector(".github a");
+					$linkGitHub.click();
+				}
+			});
+		</script>
+	</body>
+</html>
