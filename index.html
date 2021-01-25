@@ -60,6 +60,7 @@
 		<script>
 			const $btnEntrar = document.querySelector(".input:nth-child(3)");
 			$btnEntrar.addEventListener("click", ()=>{
+				event.preventDefault();
 				const $valueConfirm = confirm("Gostou? Me siga no GitHub e veja meus outros projetos.");
 				if($valueConfirm){
 					const $linkGitHub = document.querySelector(".github a");
