@@ -1,11 +1,14 @@
-# Clone-Login-Instagram
-## Para visualizar o projeto [Clique aqui.](https://arthurabreuvieira.github.io/Clone-Login-Instagram/)
-***
-Este é um clone simples e responsivo da interface de login do Instagram📸.
-Foi utilizado as tecnologias:
-* HTML5
-* CSS3
-* Javascript
----
-## ⭐Favorite o repositorio caso tenha gostado.
-😄Espero que tenha gostado do projeto.
+# Clone Netflix 📷
+### Esse projeto é um clone simples e responsivo da interface de login do Instagra.
+
+## 🌎 Para acessar o site do projeto [Clique aqui.](https://arthurabreuvieira.github.io/Clone-Login-Instagram/)
+
+📷 [Ver imagens do projeto](#imagens-do-projeto)
+
+------------------
+# 🛠️ Tecnologias
+* #### ✅ Javascript
+* #### ✅ HTML 5
+* #### ✅ CSS
+------------------
+# 📷 Imagens do projeto
