@@ -1,4 +1,4 @@
-# Clone Netflix 📷
+# Clone Login Instagram 📷
 ### Esse projeto é um clone simples e responsivo da interface de login do Instagra.
 
 ## 🌎 Para acessar o site do projeto [Clique aqui.](https://arthurabreuvieira.github.io/Clone-Login-Instagram/)
