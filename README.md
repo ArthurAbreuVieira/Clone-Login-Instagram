@@ -3,7 +3,7 @@
 
 ## 🌎 Para acessar o site do projeto [Clique aqui.](https://arthurabreuvieira.github.io/Clone-Login-Instagram/)
 
-📷 [Ver imagens do projeto](#imagens-do-projeto)
+### 📷 [Ver imagens do projeto](#imagens-do-projeto)
 
 ------------------
 # 🛠️ Tecnologias
@@ -11,4 +11,6 @@
 * #### ✅ HTML 5
 * #### ✅ CSS
 ------------------
-# 📷 Imagens do projeto
+# Imagens do projeto
+<image src="./assets/examples/example0.PNG" width=600 />
+<image src="./assets/examples/example1.PNG" width=300 />
